@@ -1,2 +1,2 @@
-# rohhthone.com Alpha 1 version
-Alpha version of my personal web page.
+# rohhthone.com Alpha version
+My personal web page.

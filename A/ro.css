@@ -1,4 +1,4 @@
-/* block physio */
+/* box physio */
 *{margin:0;padding:0;border: none;}
 html,body,div,form,a,header,footer{display:flex;align-items:center;justify-content:space-around}
 html,body{flex-direction: column;}
@@ -6,5 +6,13 @@ html,body{flex-direction: column;}
 h1,h2,h3,h4,h5,h6{text-align: center;}
 p{text-align: justify;}
 
+/* physio style */
+html.♥1 > body > header {border-radius: 0 0 0.34vmin 0.34vmin; width: 80vmin; background-color: rgba(255, 255, 255, 0.38); box-shadow: -0.18vmin -0.18vmin 0.31vmin 0.14vmin #000000, 0.08vmin 0.08vmin 0.14vmin 0.1vmin #FFFFFF;height: 7.1vmin;}
+html.♥1 > body {width: 80vmin;}
+html.♥1 > body > * {background-color: rgba(255, 255, 255, 0.14); box-shadow: 0.08vmin 0.08vmin 0.14vmin 0.1vmin #FFFFFF inset, -0.18vmin -0.18vmin 0.31vmin 0.14vmin #000000; border-radius: 0.43vmax;}
+html.♥1 ~ input:hover, html.♥1 ~ button:hover, html.♥1 ~ form:hover {box-shadow: 0.08vmin 0.08vmin 0.1vmin 0.08vmin #FFFFFF inset, -0.18vmin -0.18vmin 0.24vmin 0.1vmin #000000;}
+
 @media screen and (max-width:50vh) {html{font-size: 3.21vmax;} form{height: 3vmax;}form input{height: 2vmax;}form input[type="submit"]{height: 2vmax;width: 2vmax; font-size: 1.7vmax;color: white;}}
 @font-face{font-family:'Noton';src:url('http://rohhthone.com/noton/noton-regular_v1.0.2.ttf');}
+
+.♥{all:revert}

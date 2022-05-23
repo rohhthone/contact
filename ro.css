@@ -1,0 +1,68 @@
+  /* Physio-box */
+*{margin:0;padding:0;border:none;outline:0;}
+html,body,div,form,a,header,footer{display:flex; align-items:center; justify-content:space-around; flex-wrap: wrap;}
+html,body{flex-direction: column; justify-content: space-between;}
+/* text physio */
+h1,h2,h3,h4,h5,h6{text-align: center;}
+p{text-align: justify;}
+a{cursor: pointer; text-decoration: none;} a:focus{text-decoration: underline;}
+
+
+/* Physio style */
+html.♥1 a:any-link {color: rgba(200, 200, 200, 1.0)}
+html.♥1 a:focus {box-shadow:0 0 0 0.3vmin rgba(155, 155, 155, 1.0); inset; text-decoration: none; border-radius: 0.5vmin;}
+/* I */
+html.♥1 {background-color: rgba(0, 0, 0, 0.85); color: rgba(255, 255, 255, 1.0);}
+/* II */
+html.♥1 > body {width:80vmin; letter-spacing: 0.2000vmin;}
+/* III */
+html.♥1 > body > h2 {padding: 5vmin;}
+html.♥1 > body > header {border-radius: 0 0 1vmin 1vmin; width: 80vmin;background-color: rgba(255, 255, 255, 0.1); box-shadow: 0 0 0 0.3vmin rgba(0, 0, 0, 0.5);, 0 0 0 0.09vmin #FFFFFF inset;height: 100%; min-height: 6.5vmin;}
+html.♥1 > body > header > a {min-width: 20vmin; padding: 1vmin;}
+html.♥1 > body > div {background-color: rgba(255, 255, 255, 0.12); box-shadow: 0 0 0 0.5vmin rgba(0, 0, 0, 0.5), 0 0 0 0.1vmin rgba(255, 255, 255, 0.2) inset; border-radius: 2.8vmin; padding: 1vmax; margin: 1vmax 0 1vmax 0;}
+html.♥1 > body > footer {width: 80vmin;text-align: center;}
+/* IIII */
+html.♥1 > body > div > div {background-color: rgba(255, 255, 255, 0.12); box-shadow: 0 0 0 0.3vmin rgba(0, 0, 0, 0.2), 0 0 0 0.07vmin rgba(255, 255, 255, 0.2) inset; border-radius: 1.9vmin; padding: 1.2vmax; margin: 1.2vmin;}
+html.♥1 > body > div > div a:any-link {color: rgba(255, 255, 255, 1.0)}
+/* IIIII */
+html.♥1 > body > div > div > div{background-color: rgba(255, 255, 255, 0.12); box-shadow: 0 0 0 0.1vmin rgba(0, 0, 0, 0.2), 0 0 0 0.2vmin rgba(255, 255, 255, 0.2) inset; border-radius: 1vmin; padding: 0.2vmax;margin: 0.2vmin;}
+/* IIIIII */
+
+    /* Elements */
+    html.♥1 input{background-color: rgba(255, 255, 255, 0.2); box-shadow: 0 0 0 0.2vmin rgba(0, 0, 0, 0.2), 0 0 0 0.1vmin rgba(255, 255, 255, 0.2) inset; }html.♥1 input:focus{box-shadow: 0 0 0 0.04vmin #FFFFFF inset;}
+    html.♥1 input:hover, html.♥1 button:hover, html.♥1 form:hover {box-shadow: 0 0 0 0.2vmin rgba(0, 0, 0, 0.2), 0 0 0 0.1vmin rgba(255, 255, 255, 0.2) inset;} 
+    html.♥1 a:hover {text-decoration: underline;}
+    html.♥1 p {width: 100%;height: 100%;}
+    html.♥1 button {background: transparent; border: 1vmin solid black}
+
+    /* Dropdown menu */
+    /*@media screen and (max-width:100vh){
+        html.♥1 #phone button {width: 7vmax;height: 7vmax;font-size: 5vmax; color: rgba(0, 0, 0, 1.0); border: 0.7vmin solid white; border-radius: 2.8vmin; display: none;} 
+        html.♥1 #phone button ~ div a{width: 100%; height: 10vmin;}
+        html.♥1 #phone button ~ div {display: none;}
+        html.♥1 #phone:hover button ~ div {display: flex;}
+        html.♥1 #phone {margin-bottom: 1vmin; border-radius: 0 0 2.8vmin 2.8vmin;}
+    }*/
+
+    /* Display */
+    @media screen and (max-width:100vh){
+        html.♥1 {font-size: 3vmax;}
+        html.♥1 #desktop{display: none}
+        html.♥1 header{width: 100vmin;}
+        html.♥1 header > div {flex-direction: column;}
+        html.♥1 p{text-align: left;}
+        html.♥1 > body > header {min-height: 6.5vmax; height: 100%;}
+    }
+    @media screen and (min-width:100vh){
+        html.♥1 #phone{display: none}
+    }
+    @media screen and (min-width:50vh) {
+        html.♥1 > body {width: 80vw;}
+        html.♥1 > body > header {width: 80vw; min-height: 10vmin;}
+    }
+
+
+/* NOTON v1.2 Font Family ♥ */
+@font-face{font-family:'Noton';src:url('https://rohhthone.com/noton/noton-regular_v1.0.2.ttf');}
+
+.♥:hover, .♥{all:unset}

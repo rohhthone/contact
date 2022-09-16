@@ -1,34 +1,67 @@
 <!DOCTYPE html>
-<html class="♥1">
+<html lang="RU">
 <head>
-	<meta charset="utf-8">
-	<title>Website</title>
-	<link rel="icon" href="https://rohhthone.com/favicon.ico">
-	<link rel="stylesheet" type="text/css" href="ro.css">
-	<!-- Yandex.Metrika counter -->
-	<script type="text/javascript" >(function(m,e,t,r,i,k,a){m[i]=m[i]||function(){(m[i].a=m[i].a||[]).push(arguments)};var z = null;m[i].l=1*new Date();for (var j = 0; j < document.scripts.length; j++) {if (document.scripts[j].src === r) { return; }}k=e.createElement(t),a=e.getElementsByTagName(t)[0],k.async=1,k.src=r,a.parentNode.insertBefore(k,a)})(window, document, "script", "https://mc.yandex.ru/metrika/tag.js", "ym");ym(90317510, "init", {clickmap:true,trackLinks:true,accurateTrackBounce:true,webvisor:true});</script><noscript><div><img src="https://mc.yandex.ru/watch/90317510" style="position:absolute; left:-9999px;" alt="" /></div></noscript>
-	<!-- Global site tag (gtag.js) - Google Analytics -->
-<script async src="https://www.googletagmanager.com/gtag/js?id=UA-205163999-1"></script>
-<script>window.dataLayer = window.dataLayer || [];function gtag(){dataLayer.push(arguments);}gtag('js', new Date());gtag('config', 'UA-205163999-1');</script>
-	</head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>UI Designer</title>
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+</head>
 <body>
-	<header id="phone">
-		<div>
-			<a href="contact/">Контакты</a>
-			<a href="portfolio/">Портфолио</a>
-			<a href="projects">Проекты</a>
-		</div>
-	</header>
-	<header id="desktop">
-		<a href="contact/">Контакты</a>
-		<a href="portfolio/">Портфолио</a>
-		<a href="projects">Проекты</a>
-	</header>
-	<div>
-	<p>Здравствуйте<br><br> Спасибо, что Вы зашли на мой вебсайт, буду рад если Вы ознакомитесь и познакомитесь со мной.</p>
-	</div>
-	<footer>
-		<a href="policy">Политика конфиденциальности</a>
-	</footer>
+    <style>
+        @font-face {
+            font-family: Montserrat A;
+            src: url(MontserratAlternates-Light.ttf), url(MontserratAlternates-Regular.ttf);
+        }
+        @font-face {
+            font-family: Montserrat;
+            src: url(Montserrat-VariableFont_wght.ttf);
+        }
+        @font-face {
+            font-family: Montserrat B;
+            src: url(Montserrat-Bold.ttf);
+        }
+        *{margin: 0; padding: 0;}
+        html{ font-size: 3vmax;}
+        body{display: flex; width: 100%; height: 100%; max-width: 100vw; max-height: 100vh;}
+        .screen{width: 100vw; height: 100vh;display: flex; max-width: 100vw; max-height: 100vh; background-color: #000; display: flex; align-items: center; justify-content: space-around;}
+        .main{width: 38vw; min-width: 38vw; height: 100vh; display: flex; flex-direction: column; justify-content: space-between; background-color: #fff;}
+        .title{position: inherit;margin-top: 30vh; display: flex; align-items: center; flex-direction: column; width: 100%;}
+        h1{font-family: Montserrat A;font-weight: 300;line-height: 100%; text-align: center; width: 100%;}
+        h3{font-family: Montserrat B; font-weight: black; font-size: 0.7em; letter-spacing: 0.06em; text-align: center; color: rgba(0, 0, 0, 0.6); width: 100%;}
+        .tab-bar{display: flex; align-items: center; justify-content: space-between; width: 100%; height: 64px; background-color: #000;}
+        .tab-bar a{margin: 16px; color: #fff; text-decoration: none;font-family: Montserrat A; font-size: 2vmax;}
+        .tab-bar a:hover{color: rgba(255, 255, 255, 0.6); transition: 0.3s;}
+
+        .screen>a{color: #000; position: fixed; bottom: 64px; right: 0; font-size: 3vmax; width: 38vw; background-color: #fff; border: none; transition: 0.3s; text-decoration: none;color: #000; text-align: center;}
+        .screen>a:hover{background-color: rgba(255, 255, 255, 0.6); color: #33f; transition: 0.3s; transform: translateY(-10px); cursor: pointer;}
+        .screen>a:focus{outline: #33f solid 1px;border-radius: 0; border: #33f solid 1px inset;}
+
+        .img{width: 62vw; height: 100%; background-position: center; background-repeat: no-repeat; background-size: cover; background-image: url(avatar.jpg);}
+        
+        @media screen and (max-width: 100vh) {
+            .screen{flex-direction: column;}
+            .img, .main {width: 100%;}
+            .title{margin-top: 20%;}
+        }
+
+    </style>
+    <div class="screen">
+        <div class="img"></div>
+        <div class="main">
+            <div>
+                <div class="title">
+                    <h1>rohh thone</h1>
+                    <h3>UI/UX DESIGNER</h3>
+                </div>
+            </div>
+            <div class="tab-bar">
+                <a href="tel:+79313439137">+7 931 343 91 37</a>
+                <a href="mailto:rohhthone@gmail.com">@</a>
+                <!-- <a href="mailto:rohhthone@gmail.com" style="width:24px; height:24px; display:flex; align-items:center; justify-content:space-around; border-radius: 50%; border: #fff solid 1px;">i</a> -->
+            </div>
+        </div>
+        <a href="info/">▲</a>
+    </div>
 </body>
 </html>

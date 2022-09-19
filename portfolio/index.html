@@ -1,0 +1,222 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>🖼️ Rohh Thone</title>
+    <link rel="shortcut icon" href="../favicon.ico" type="image/x-icon">
+</head>
+<body>
+    <style>
+        *{margin: 0; padding: 0;}
+        html{font-family: montserrat,'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;}
+        header, footer{position: fixed; height: 48px;width: 100%;}
+        header {top:0; left: 0;}
+        header > img{width: 48px;}
+        footer{bottom: 0; left: 0; background-color: #000; color: #fff;display: flex; align-items: center; justify-content: space-around;}
+        a:any-link{color: #fff;}
+        a:hover{opacity: 0.4;}
+        .main{width: 100%; height: 100vh;background-position: center;background-repeat: no-repeat;background-size:512px;}
+
+        .list{margin-bottom: 256px;}
+        .list>.item{width: 100%; height: 64px; border-bottom: 1px solid #000; display: flex; align-items: center; justify-content: space-around; padding: 8px 0 8px 0;}
+        .list>.item>.icon{width: 64px; height: 64px;border-radius: 50%; box-shadow: 0 0 16px -8px #000;}
+        .list>.item>.brand{width: 60%; height: 64px; font-size: 32px;display: flex; align-items: center; justify-content: right;}
+        .list>.item>.icon{background-position: center;background-repeat: no-repeat;background-size:32px;}
+        .list>.item>.brand{background-position: right;background-repeat: no-repeat;background-size:contain;}
+
+        @media screen and (max-width:100vh) {
+            .main{background-size:80vw;}
+        }
+    </style>
+    <header>
+        <img src="../logotype.png" alt="Logotype">
+    </header>
+    <div class="main" id="main" style="background-image:url(logo/nvidia_logo.svg)">
+    </div>
+    <footer><p>Логотип</p></footer>
+    <div class="list">
+        <div class="item">
+            <div class="icon" style="background-image:url(logo/nvidia_logo.svg)"></div>
+            <div class="brand" style="background-image:url(logo/nvidia_brand.svg)"></div>
+        </div>
+        <div class="item">
+            <div class="icon" style="background-image:url(logo/cisco_logo.svg)"></div>
+            <div class="brand" style="background-image:url(logo/cisco_brand.svg)"></div>
+        </div>
+        <div class="item">
+            <div class="icon" style="background-image:url(logo/donor_logo.svg)"></div>
+            <div class="brand" style="background-image:url(logo/donor_brand.svg)"></div>
+        </div>
+        <div class="item">
+            <div class="icon" style="background-image:url(logo/dynamics_logo.svg)"></div>
+            <div class="brand" style="background-image:url(logo/dynamics_brand.svg)"></div>
+        </div>
+        <div class="item">
+            <div class="icon" style="background-image:url(logo/helix_logo.svg)"></div>
+            <div class="brand" style="background-image:url(logo/helix_brand.svg)"></div>
+        </div>
+        <div class="item">
+            <div class="icon" style="background-image:url(logo/datarobot_logo.svg)"></div>
+            <div class="brand" style="background-image:url(logo/datarobot_brand.svg)"></div>
+        </div>
+        <div class="item">
+            <div class="icon" style="background-image:url(logo/tensorflow_logo.svg)"></div>
+            <div class="brand" style="background-image:url(logo/tensorflow_brand.svg)"></div>
+        </div>
+        <div class="item">
+            <div class="icon" style="background-image:url(logo/exam_logo.svg)"></div>
+            <div class="brand" style="background-image:url(logo/exam_brand.svg)"></div>
+        </div>
+        <div class="item">
+            <div class="icon" style="background-image:url(logo/capptions_logo.svg)"></div>
+            <div class="brand" style="background-image:url(logo/capptions_brand.svg)"></div>
+        </div>
+        <div class="item">
+            <div class="icon" style="background-image:url(logo/marketo_logo.svg)"></div>
+            <div class="brand" style="background-image:url(logo/marketo_brand.svg)"></div>
+        </div>
+        <div class="item">
+            <div class="icon" style="background-image:url(logo/scala_logo.svg)"></div>
+            <div class="brand" style="background-image:url(logo/scala_brand.svg)"></div>
+        </div>
+        <div class="item">
+            <div class="icon" style="background-image:url(logo/squarespace_logo.svg)"></div>
+            <div class="brand" style="background-image:url(logo/squarespace_brand.svg)"></div>
+        </div>
+        <div class="item">
+            <div class="icon" style="background-image:url(logo/wm_logo.svg)"></div>
+            <div class="brand" style="background-image:url(logo/wm_brand.svg)"></div>
+        </div>
+        <div class="item">
+            <div class="icon" style="background-image:url(logo/ua_logo.svg)"></div>
+            <div class="brand" style="background-image:url(logo/ua_brand.svg)"></div>
+        </div>
+        <div class="item">
+            <div class="icon" style="background-image:url(logo/sketchbook_logo.svg)"></div>
+            <div class="brand" style="background-image:url(logo/sketchbook_brand.svg)"></div>
+        </div>
+        <div class="item">
+            <div class="icon" style="background-image:url(logo/sentinalone_logo.svg)"></div>
+            <div class="brand" style="background-image:url(logo/sentinalone_brand.svg)"></div>
+        </div>
+        <div class="item">
+            <div class="icon" style="background-image:url(logo/rocnation_logo.svg)"></div>
+            <div class="brand" style="background-image:url(logo/rocnation_brand.svg)"></div>
+        </div>
+        <div class="item">
+            <div class="icon" style="background-image:url(logo/restream_logo.svg)"></div>
+            <div class="brand" style="background-image:url(logo/restream_brand.svg)"></div>
+        </div>
+        <div class="item">
+            <div class="icon" style="background-image:url(logo/republicrecords_logo.svg)"></div>
+            <div class="brand" style="background-image:url(logo/republicrecords_brand.svg)"></div>
+        </div>
+        <div class="item">
+            <div class="icon" style="background-image:url(logo/redislabs_logo.svg)"></div>
+            <div class="brand" style="background-image:url(logo/redislabs_brand.svg)"></div>
+        </div>
+        <div class="item">
+            <div class="icon" style="background-image:url(logo/neuraldesigner_logo.svg)"></div>
+            <div class="brand" style="background-image:url(logo/neuraldesigner_brand.svg)"></div>
+        </div>
+        <div class="item">
+            <div class="icon" style="background-image:url(logo/mintigo_logo.svg)"></div>
+            <div class="brand" style="background-image:url(logo/mintigo_brand.svg)"></div>
+        </div>
+        <div class="item">
+            <div class="icon" style="background-image:url(logo/microsoftteams_logo.svg)"></div>
+            <div class="brand" style="background-image:url(logo/microsoftteams_brand.svg)"></div>
+        </div>
+        <div class="item">
+            <div class="icon" style="background-image:url(logo/metasploit_logo.svg)"></div>
+            <div class="brand" style="background-image:url(logo/metasploit_brand.svg)"></div>
+        </div>
+        <div class="item">
+            <div class="icon" style="background-image:url(logo/medalia_logo.svg)"></div>
+            <div class="brand" style="background-image:url(logo/medalia_brand.svg)"></div>
+        </div>
+        <div class="item">
+            <div class="icon" style="background-image:url(logo/maxis_logo.svg)"></div>
+            <div class="brand" style="background-image:url(logo/maxis_brand.svg)"></div>
+        </div>
+        <div class="item">
+            <div class="icon" style="background-image:url(logo/improvado_logo.svg)"></div>
+            <div class="brand" style="background-image:url(logo/improvado_brand.svg)"></div>
+        </div>
+        <div class="item">
+            <div class="icon" style="background-image:url(logo/dragon_logo.svg)"></div>
+            <div class="brand" style="background-image:url(logo/dragon_brand.svg)"></div>
+        </div>
+        <div class="item">
+            <div class="icon" style="background-image:url(logo/dolfia_logo.svg)"></div>
+            <div class="brand" style="background-image:url(logo/dolfia_brand.svg)"></div>
+        </div>
+        <div class="item">
+            <div class="icon" style="background-image:url(logo/carbon_logo.svg)"></div>
+            <div class="brand" style="background-image:url(logo/carbon_brand.svg)"></div>
+        </div>
+        <div class="item">
+            <div class="icon" style="background-image:url(logo/capdesk_logo.svg)"></div>
+            <div class="brand" style="background-image:url(logo/capdesk_brand.svg)"></div>
+        </div>
+        <div class="item">
+            <div class="icon" style="background-image:url(logo/branch_logo.svg)"></div>
+            <div class="brand" style="background-image:url(logo/branch_brand.svg)"></div>
+        </div>
+        <div class="item">
+            <div class="icon" style="background-image:url(logo/bootstrap_logo.svg)"></div>
+            <div class="brand" style="background-image:url(logo/bootstrap_brand.svg)"></div>
+        </div>
+        <div class="item">
+            <div class="icon" style="background-image:url(logo/billing_logo.svg)"></div>
+            <div class="brand" style="background-image:url(logo/billing_brand.svg)"></div>
+        </div>
+        <div class="item">
+            <div class="icon" style="background-image:url(logo/ambilin_logo.svg)"></div>
+            <div class="brand" style="background-image:url(logo/ambilin_brand.svg)"></div>
+        </div>
+        <div class="item">
+            <div class="icon" style="background-image:url(logo/ajax_logo.svg)"></div>
+            <div class="brand" style="background-image:url(logo/ajax_brand.svg)"></div>
+        </div>
+        <div class="item">
+            <div class="icon" style="background-image:url(logo/image.png)"></div>
+            <div class="brand">Rohhy</div>
+        </div>
+        <div class="item">
+            <div class="icon" style="background-image:url(logo/logoBP.jpg)"></div>
+            <div class="brand">BetterPaper</div>
+        </div>
+        <div class="item">
+            <div class="icon" style="background-image:url(logo/bigball.png)"></div>
+            <div class="brand">bigball</div>
+        </div>
+        <div class="item">
+            <div class="icon" style="background-image:url(logo/sketchbook_logo.png)"></div>
+           <div class="brand"> sketchbook</div>
+        </div>
+        <div class="item">
+            <div class="icon" style="background-image:url(logo/ak.png)"></div>
+            <div class="brand">Avrora Karbo</div>
+        </div>
+        <div class="item">
+            <div class="icon" style="background-image:url(logo/vid.png)"></div>
+            <div class="brand">V.I.D.</div>
+        </div>
+    </div>
+    <script>
+        var o=0;
+        setInterval(function changeLogo(){
+            if(o>=document.getElementsByClassName('icon').length){o=0}
+            var a=document.getElementsByClassName('icon')[o].style.backgroundImage;
+            document.getElementById('main').style.backgroundImage=a;
+            o++;
+        },2000);
+        // let a = setInterval(() => changeLogo, 2000);
+        // window.addEventListener("load", changeLogo);
+        
+    </script>
+</body>
+</html>

@@ -1,1 +1,4 @@
 *{margin: 0; padding: 0;transition: 0.34s;}
+
+/* Styling of blocks */
+div.img{background-repeat: no-repeat; background-position: center; background-size: cover;}

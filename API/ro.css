@@ -2,3 +2,6 @@
 
 /* Styling of blocks */
 div.img{background-repeat: no-repeat; background-position: center; background-size: cover;}
+
+/* Block theory */
+style{display: none !important;}

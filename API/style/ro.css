@@ -1,0 +1,6 @@
+/* Basics */
+*{all: unset;margin: 0; padding: 0;}
+
+/* Blocks */
+style{display: none;}
+script{display: none;}

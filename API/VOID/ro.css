@@ -2,7 +2,7 @@
 @import "variable.css";
 
 /* Basics */
-*{all: unset;margin: 0; padding: 0;}
+*{all: unset; margin: 0; padding: 0;}
 
 /* Blocks */
 style{display: none;}

@@ -1,9 +1,9 @@
+@import "./form.css";
+@import "./variable.css";
+
 /* Basics */
 *{all: unset;margin: 0; padding: 0;}
 
 /* Blocks */
 style{display: none;}
 script{display: none;}
-
-@import "form.css";
-@import "variable.css";

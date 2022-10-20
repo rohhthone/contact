@@ -1,0 +1,5 @@
+/* Aligning */
+.mid{display: flex; align-items: center; justify-content: space-around;}
+.mid-between{display: flex; align-items: center; justify-content: space-between;}
+.mid-column{display: flex; align-items: center; justify-content: space-around; flex-direction: column;}
+.mid-column-between{display: flex; align-items: center; justify-content: space-between; flex-direction: column;}

@@ -1,0 +1,81 @@
+/* Variables*/
+:root{
+
+/* SIZES */
+  /* Binary sizes */
+  --_b0:1px;--_b1:2px;--_b2:4px;--_b3:8px;--_b4:16px;--_b5:32px;--_b6:64px;--_b7:128px;--_b8:256px;--_b9:512px;--_b10:1024px;
+  /* Binary coefficient */
+  --BIN: 2;
+  /* Binary square seqience */
+  --_B0:1px;--_B1:2px;--_B2:4px;--_B3:16px;--_B4:256px;
+  /* Binary golden ratio sequence */
+  --_bgr0:2px;--_bgr1:4px;--_bgr2:6px;--_bgr3:10px;--_bgr4:16px;--_bgr5:26px;--_bgr6:42px;--_bgr7:68px;--_bgr8:110px;--_bgr9:178px;--_bgr10:288px;--_bgr11:466px;--_bgr12:754px;--_bgr13:1220px;--_bgr14:1974px;--_bgr15:3194px;
+
+  /* Golden ratio sequence */
+  --_G0:1px;--_G1:2px;--_G2:3px;--_G3:5px;--_G4:8px;--_G5:13px;--_G6:21px;--_G7:34px;--_G8:55px;--_G9:89px;--_G10:144px;--_G11:233px;--_G12:377px;--_G13:610px;--_G14:987px;
+  /* Golden ratio coefficient */
+  --GR: 1.618;
+
+  /* Triangle sequence sizes */
+  --_TR0:1px;--_TR1:3px;--_TR2:6px;--_TR3:10px;--_TR4:15px;--_TR5:21px;--_TR6:28px;--_TR7:36px;--_TR8:45px;--_TR9:55px;--_TR10:66px;--_TR11:78px;--_TR12:91px;--_TR13:105px;--_TR14:120px;--_TR15:136px;--_TR16:153px;--_TR17:171px;--_TR18:190px;--_TR19:210px;--_TR20:231px;--_TR21:253px;--_TR22:276px;
+
+  /* Character text size */
+  --_f0:10px;--_f1:12px;--_f2:14px;--_f3:16px;--_f4:18px;--_f5:20px;--_f6:22px;--_f7:24px;
+  /* Character heading size */
+  --_F0:24px;--_F1:28px;--_F2:32px;--_F3:36px;--_F4:40px;--_F5:48px;--_F6:64px;--_F7:72px;--_F8:96px;--_F9:128px;
+
+  /* Element sizes */
+  /* Document width */
+  --_W0:320px;--_W1:480px;--_W2:640px;--_W3:1024px;--_W4:1280px;--_W5:1600px;--_W6:2048px;--_W7:2560px;--_W8:4096px;--_W9:8192px;
+
+  /* Bar height */
+  --_Bh0:24px;--_Bh1:26px;--_Bh2:30px;--_Bh3:32px;--_Bh4:40px;--_Bh5:48px;--_Bh6:52px;--_Bh7:54px;--_Bh8:56px;--_Bh9:60px;--_Bh10:64px;--_Bh11:72px;--_Bh12:90px;--_Bh13:94px;--_Bh14:128px;--_Bh15:156px;
+
+  /* Button height */
+  --_bh0:20px;--_bh1:32px;--_bh2:36px;--_bh3:42px;--_bh4:48px;--_bh5:54px;--_bh6:58px;--_bh7:64px;--_bh8:72px;--_bh9:96px;
+  /* Button width */
+  --_bw0:48px;--_bw1:72px;--_bw2:96px;--_bw3:128px;--_bw4:144px;--_bw5:192px;--_bw6:256px;--_bw7:384px;--_bw8:512px;--_bw9:1024px;
+
+  /* Percents */
+  --_P0:0%;--_P1:10%;--_P2:20%;--_P3:30%;--_P4:40%;--_P5:50%;--_P6:60%;--_P7:70%;--_P8:80%;--_P9:90%;--_P10:100%;
+  /* Percents BIN */
+  --_pBIN0:0.2;--_pBIN1:0.4;--_pBIN2:0.6;--_pBIN3:0.8;--_PBIN0:20%;--_PBIN1:40%;--_PBIN2:60%;--_PBIN3:80%;
+  /* Percents Golden Ratio */
+  --_PGR0:0.38;--_PGR1:0.62;
+
+/* COLORS */
+  /* Basic*/
+  --WHITE:#FFF;
+  --BLACK:#000;
+  --BLUE:#00F;
+  --RED:#F00;
+  --GREEN:#0F0;
+  --YELLOW:#FF0;
+  --AQUA:#0FF;
+  --MAGENTA:#F0F;
+  --GRAY:#777;
+
+  /* Prefered*/
+  --_black:#111;
+  --_white:#f1f1f1;
+  --_blue:#11e;
+  --_red:#f12;
+  --_green:#2d2;
+  --_yellow:#ff2;
+  --_aqua:#17e;
+  --_pink:#e17;
+
+  --_brown:#721;
+  --_beige:#fc7;
+
+  --SYSTEM_1-0:#111;
+  --SYSTEM_1-1:#333;
+  --SYSTEM_1-2:#555;
+  --SYSTEM_1-3:#777;
+  --SYSTEM_1-4:#999;
+  --SYSTEM_1-5:#acacac;
+  --SYSTEM_1-6:#bcbcbc;
+  --SYSTEM_1-7:#cdcdcd;
+  --SYSTEM_1-7:#dfdfdf;
+  --SYSTEM_1-8:#f1f1f1;
+}

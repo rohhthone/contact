@@ -1,5 +1,5 @@
-@import "./form.css";
-@import "./variable.css";
+@import "form.css";
+@import "variable.css";
 
 /* Basics */
 *{all: unset;margin: 0; padding: 0;}

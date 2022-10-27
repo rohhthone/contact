@@ -1,9 +1,9 @@
 .posts{display: flex; align-items: center; flex-direction: column; gap: 1em; max-width: inherit;}
-.simple.post{display: flex; justify-content: space-around; flex-direction: column; align-items: center; width: 35em;max-width: inherit; white-space: pre-line; border: 1px solid  var(--SYSTEM_0-6); box-shadow: 0 0 0 var(--BIN0) var(--SYSTEM_0-3); box-sizing: border-box; padding: var(--BIN4); border-radius: var(--BIN4); gap: var(--BIN3); background-color: var(--SYSTEM_0-0);}
+.simple.post{display: flex; justify-content: space-around; flex-direction: column; align-items: center; width: 35em;max-width: 100vw; white-space: pre-line; border: 1px solid  var(--SYSTEM_0-6); box-shadow: 0 0 0 var(--BIN0) var(--SYSTEM_0-3); box-sizing: border-box; padding: var(--BIN4); border-radius: var(--BIN4); gap: var(--BIN3); background-color: var(--SYSTEM_0-0);}
 .simple.post>h2{font-size: 1.5em;}
 .simple.post>p{letter-spacing: 0.3px; font-family: serif;}
 .simple.post>ul{margin: 0 0 0 1em; align-self: flex-start;}
-.simple.post>img{width: 35em; height: auto; aspect-ratio: 16 / 9; border-radius: var(--BIN3); margin: 0 0 var(--BIN3) 0;}
+.simple.post>img{width: 35em; height: auto; aspect-ratio: 16 / 9; border-radius: var(--BIN3); margin: 0 0 var(--BIN3) 0; max-width: 100vw;}
 .simple.post>p>a{text-decoration: underline;}
 
 .rohh.thone.privacy{display: flex; align-items: center; justify-content: center; max-width: 100VW; height: var(--BIN5); gap: 0.5EM; font-size: 0.75EM; border-top: 1px solid var(--SYSTEM_0-4);margin: var(--BIN5) 0 0 0 ;}

@@ -12,4 +12,4 @@ script{display: none;}
 
 html.void{display: flex; align-items: center; justify-content: space-around; flex-direction: column; width: 100%; height: AUTO; font-size: var(--BIN4); font-family: SYSTEM-UI; background: var(--background); color: var(--foreground);}
 body.matter{display: flex; align-items: center; justify-content: space-around; flex-direction: column; font-size: 1.2EM;}
-.matter>.head{display: flex; align-items: center; justify-content: space-around;}
+.matter>#head{display: flex; align-items: center; justify-content: space-around;}

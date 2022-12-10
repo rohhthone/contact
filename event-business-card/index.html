@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Business card</title>
+  <link rel="stylesheet" href="https://rohh.ru/API/style/void.css">
+</head>
+<body>
+  <style>
+    html{font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;}
+    body{display: flex; flex-direction: row; align-items: center; justify-content: center; height: 100vh; background: #000; color: black; gap: 2em;}
+    h1{font-size: 5vh; margin: 0 0 .5em 0; color: white; letter-spacing: 0.1em; text-transform: lowercase; font-variant: small-caps; font-weight: 500;}
+    img{ 
+      width: 40vh;
+      aspect-ratio: 1/1;
+    }
+    div{display: flex; flex-direction: column; align-items: center; justify-content: center; margin: 1em 0;}
+
+    @media screen and (max-width: 768px) {
+      body{flex-direction: column; gap: 1em; height: auto;}
+      img{width: 80vw;}
+    }
+  </style>
+
+  <div>
+    <h1>Разработчик</h1>
+    <img src="qr.png" alt="QR CODE" width="" height="">
+  </div>
+  <div>
+    <h1>Машина 1</h1>
+    <img src="machine1.png" alt="QR CODE" width="" height="">
+  </div>
+  <div>
+    <h1>Машина 2</h1>
+    <img src="machine2.png" alt="QR CODE" width="" height="">
+  </div>
+  
+</body>
+</html>
